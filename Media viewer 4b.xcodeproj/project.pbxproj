@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF23506C203B82FE0029D710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23506B203B82FE0029D710 /* AppDelegate.swift */; };
+		FF23506E203B82FE0029D710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23506D203B82FE0029D710 /* ViewController.swift */; };
+		FF235070203B82FE0029D710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF23506F203B82FE0029D710 /* Assets.xcassets */; };
+		FF235073203B82FE0029D710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF235071203B82FE0029D710 /* Main.storyboard */; };
+		FF23507F203B82FF0029D710 /* Media_viewer_4bTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23507E203B82FF0029D710 /* Media_viewer_4bTests.swift */; };
+		FF23508A203B82FF0029D710 /* Media_viewer_4bUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF235089203B82FF0029D710 /* Media_viewer_4bUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF23507B203B82FF0029D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF235060203B82FE0029D710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF235067203B82FE0029D710;
+			remoteInfo = "Media viewer 4b";
+		};
+		FF235086203B82FF0029D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF235060203B82FE0029D710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF235067203B82FE0029D710;
+			remoteInfo = "Media viewer 4b";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF235068203B82FE0029D710 /* Media viewer 4b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media viewer 4b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF23506B203B82FE0029D710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF23506D203B82FE0029D710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF23506F203B82FE0029D710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF235072203B82FE0029D710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF235074203B82FE0029D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF235075203B82FE0029D710 /* Media_viewer_4b.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Media_viewer_4b.entitlements; sourceTree = "<group>"; };
+		FF23507A203B82FF0029D710 /* Media viewer 4bTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media viewer 4bTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF23507E203B82FF0029D710 /* Media_viewer_4bTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media_viewer_4bTests.swift; sourceTree = "<group>"; };
+		FF235080203B82FF0029D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF235085203B82FF0029D710 /* Media viewer 4bUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media viewer 4bUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF235089203B82FF0029D710 /* Media_viewer_4bUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media_viewer_4bUITests.swift; sourceTree = "<group>"; };
+		FF23508B203B82FF0029D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF235065203B82FE0029D710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF235077203B82FF0029D710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF235082203B82FF0029D710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF23505F203B82FE0029D710 = {
+			isa = PBXGroup;
+			children = (
+				FF23506A203B82FE0029D710 /* Media viewer 4b */,
+				FF23507D203B82FF0029D710 /* Media viewer 4bTests */,
+				FF235088203B82FF0029D710 /* Media viewer 4bUITests */,
+				FF235069203B82FE0029D710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF235069203B82FE0029D710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF235068203B82FE0029D710 /* Media viewer 4b.app */,
+				FF23507A203B82FF0029D710 /* Media viewer 4bTests.xctest */,
+				FF235085203B82FF0029D710 /* Media viewer 4bUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF23506A203B82FE0029D710 /* Media viewer 4b */ = {
+			isa = PBXGroup;
+			children = (
+				FF23506B203B82FE0029D710 /* AppDelegate.swift */,
+				FF23506D203B82FE0029D710 /* ViewController.swift */,
+				FF23506F203B82FE0029D710 /* Assets.xcassets */,
+				FF235071203B82FE0029D710 /* Main.storyboard */,
+				FF235074203B82FE0029D710 /* Info.plist */,
+				FF235075203B82FE0029D710 /* Media_viewer_4b.entitlements */,
+			);
+			path = "Media viewer 4b";
+			sourceTree = "<group>";
+		};
+		FF23507D203B82FF0029D710 /* Media viewer 4bTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF23507E203B82FF0029D710 /* Media_viewer_4bTests.swift */,
+				FF235080203B82FF0029D710 /* Info.plist */,
+			);
+			path = "Media viewer 4bTests";
+			sourceTree = "<group>";
+		};
+		FF235088203B82FF0029D710 /* Media viewer 4bUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF235089203B82FF0029D710 /* Media_viewer_4bUITests.swift */,
+				FF23508B203B82FF0029D710 /* Info.plist */,
+			);
+			path = "Media viewer 4bUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF235067203B82FE0029D710 /* Media viewer 4b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF23508E203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4b" */;
+			buildPhases = (
+				FF235064203B82FE0029D710 /* Sources */,
+				FF235065203B82FE0029D710 /* Frameworks */,
+				FF235066203B82FE0029D710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Media viewer 4b";
+			productName = "Media viewer 4b";
+			productReference = FF235068203B82FE0029D710 /* Media viewer 4b.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF235079203B82FF0029D710 /* Media viewer 4bTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF235091203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4bTests" */;
+			buildPhases = (
+				FF235076203B82FF0029D710 /* Sources */,
+				FF235077203B82FF0029D710 /* Frameworks */,
+				FF235078203B82FF0029D710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF23507C203B82FF0029D710 /* PBXTargetDependency */,
+			);
+			name = "Media viewer 4bTests";
+			productName = "Media viewer 4bTests";
+			productReference = FF23507A203B82FF0029D710 /* Media viewer 4bTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF235084203B82FF0029D710 /* Media viewer 4bUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF235094203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4bUITests" */;
+			buildPhases = (
+				FF235081203B82FF0029D710 /* Sources */,
+				FF235082203B82FF0029D710 /* Frameworks */,
+				FF235083203B82FF0029D710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF235087203B82FF0029D710 /* PBXTargetDependency */,
+			);
+			name = "Media viewer 4bUITests";
+			productName = "Media viewer 4bUITests";
+			productReference = FF235085203B82FF0029D710 /* Media viewer 4bUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF235060203B82FE0029D710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sorin George Budescu";
+				TargetAttributes = {
+					FF235067203B82FE0029D710 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF235079203B82FF0029D710 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF235067203B82FE0029D710;
+					};
+					FF235084203B82FF0029D710 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF235067203B82FE0029D710;
+					};
+				};
+			};
+			buildConfigurationList = FF235063203B82FE0029D710 /* Build configuration list for PBXProject "Media viewer 4b" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF23505F203B82FE0029D710;
+			productRefGroup = FF235069203B82FE0029D710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF235067203B82FE0029D710 /* Media viewer 4b */,
+				FF235079203B82FF0029D710 /* Media viewer 4bTests */,
+				FF235084203B82FF0029D710 /* Media viewer 4bUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF235066203B82FE0029D710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF235070203B82FE0029D710 /* Assets.xcassets in Resources */,
+				FF235073203B82FE0029D710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF235078203B82FF0029D710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF235083203B82FF0029D710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF235064203B82FE0029D710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF23506E203B82FE0029D710 /* ViewController.swift in Sources */,
+				FF23506C203B82FE0029D710 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF235076203B82FF0029D710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF23507F203B82FF0029D710 /* Media_viewer_4bTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF235081203B82FF0029D710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF23508A203B82FF0029D710 /* Media_viewer_4bUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF23507C203B82FF0029D710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF235067203B82FE0029D710 /* Media viewer 4b */;
+			targetProxy = FF23507B203B82FF0029D710 /* PBXContainerItemProxy */;
+		};
+		FF235087203B82FF0029D710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF235067203B82FE0029D710 /* Media viewer 4b */;
+			targetProxy = FF235086203B82FF0029D710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF235071203B82FE0029D710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF235072203B82FE0029D710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF23508C203B82FF0029D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF23508D203B82FF0029D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FF23508F203B82FF0029D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Media viewer 4b/Media_viewer_4b.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ427KN25G;
+				INFOPLIST_FILE = "Media viewer 4b/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fourbottles.bsg.Media-viewer-4b";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FF235090203B82FF0029D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Media viewer 4b/Media_viewer_4b.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ427KN25G;
+				INFOPLIST_FILE = "Media viewer 4b/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fourbottles.bsg.Media-viewer-4b";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		FF235092203B82FF0029D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ427KN25G;
+				INFOPLIST_FILE = "Media viewer 4bTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fourbottles.bsg.Media-viewer-4bTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media viewer 4b.app/Contents/MacOS/Media viewer 4b";
+			};
+			name = Debug;
+		};
+		FF235093203B82FF0029D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ427KN25G;
+				INFOPLIST_FILE = "Media viewer 4bTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fourbottles.bsg.Media-viewer-4bTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Media viewer 4b.app/Contents/MacOS/Media viewer 4b";
+			};
+			name = Release;
+		};
+		FF235095203B82FF0029D710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ427KN25G;
+				INFOPLIST_FILE = "Media viewer 4bUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fourbottles.bsg.Media-viewer-4bUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Media viewer 4b";
+			};
+			name = Debug;
+		};
+		FF235096203B82FF0029D710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GZ427KN25G;
+				INFOPLIST_FILE = "Media viewer 4bUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fourbottles.bsg.Media-viewer-4bUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Media viewer 4b";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF235063203B82FE0029D710 /* Build configuration list for PBXProject "Media viewer 4b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF23508C203B82FF0029D710 /* Debug */,
+				FF23508D203B82FF0029D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF23508E203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF23508F203B82FF0029D710 /* Debug */,
+				FF235090203B82FF0029D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF235091203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4bTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF235092203B82FF0029D710 /* Debug */,
+				FF235093203B82FF0029D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF235094203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4bUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF235095203B82FF0029D710 /* Debug */,
+				FF235096203B82FF0029D710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF235060203B82FE0029D710 /* Project object */;
+}
