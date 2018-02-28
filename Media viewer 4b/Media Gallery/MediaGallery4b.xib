@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MediaGallery4b" customModule="Media_viewer_4b" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionClipView" destination="SHX-IH-KVk" id="mi1-zS-JyV"/>
+                <outlet property="collectionView" destination="0X3-46-X2b" id="ECz-GF-wjh"/>
+                <outlet property="scrollCollectionView" destination="gcW-Bo-lLS" id="88b-LO-Sfi"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView wantsLayer="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcW-Bo-lLS" customClass="ListenableScrollView" customModule="BasicsMacKit4b">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+                    <clipView key="contentView" drawsBackground="NO" id="SHX-IH-KVk">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView selectable="YES" id="0X3-46-X2b" customClass="ListenableCollectionView" customModule="BasicsMacKit4b">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="158"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" scrollDirection="horizontal" id="amX-ON-2Tv">
+                                    <size key="itemSize" width="160" height="115"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="Xon-yU-GuW"/>
+                                    <outlet property="delegate" destination="-2" id="MBj-Ot-YtM"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="mini" horizontal="YES" id="Rci-2P-yRQ">
+                        <rect key="frame" x="-100" y="-100" width="233" height="11"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" controlSize="mini" horizontal="NO" id="FWx-UD-OfY">
+                        <rect key="frame" x="-100" y="-100" width="11" height="143"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="gcW-Bo-lLS" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="Apk-Z7-aHk"/>
+                <constraint firstAttribute="trailing" secondItem="gcW-Bo-lLS" secondAttribute="trailing" id="FBo-lL-lYy"/>
+                <constraint firstAttribute="bottom" secondItem="gcW-Bo-lLS" secondAttribute="bottom" id="cSY-jE-oAq"/>
+                <constraint firstItem="gcW-Bo-lLS" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="sRh-Y2-9iA"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

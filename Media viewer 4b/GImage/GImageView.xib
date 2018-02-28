@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="GImageView" customModule="Favid_View_4b" customModuleProvider="target">
+            <connections>
+                <outlet property="clipView" destination="qJ6-0d-L9U" id="g6f-LW-Mgr"/>
+                <outlet property="container_imgView" destination="e1Q-hM-ZgT" id="jc8-rW-xBR"/>
+                <outlet property="container_location" destination="5a4-lp-Db6" id="Zni-76-Bfm"/>
+                <outlet property="imageCell" destination="h5t-bl-wMM" id="OEP-a0-f7X"/>
+                <outlet property="imgViewer" destination="yAq-LS-QyX" id="Iup-zV-pNn"/>
+                <outlet property="lbl_locationX" destination="AXS-cV-7Px" id="pkb-UD-G1y"/>
+                <outlet property="lbl_locationY" destination="nNN-jL-hNw" id="fZb-Ue-vEQ"/>
+                <outlet property="scrollView" destination="SjG-Ec-qwf" id="GbB-f6-5bu"/>
+                <outlet property="view" destination="c22-O7-iKe" id="5nh-sI-Iv5"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="787" height="691"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjG-Ec-qwf" customClass="ListenableScrollView" customModule="BasicsMacKit4b">
+                    <rect key="frame" x="0.0" y="0.0" width="787" height="691"/>
+                    <clipView key="contentView" id="qJ6-0d-L9U" customClass="CenteringClipView" customModule="Favid_View_4b" customModuleProvider="target">
+                        <rect key="frame" x="1" y="1" width="770" height="674"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view translatesAutoresizingMaskIntoConstraints="NO" id="e1Q-hM-ZgT">
+                                <rect key="frame" x="-732" y="-420" width="2250" height="1500"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yAq-LS-QyX">
+                                        <rect key="frame" x="0.0" y="0.0" width="2250" height="1500"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyUpOrDown" image="naturetestphoto" id="h5t-bl-wMM"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yAq-LS-QyX" firstAttribute="centerY" secondItem="e1Q-hM-ZgT" secondAttribute="centerY" id="S9W-Pz-J8e"/>
+                                    <constraint firstAttribute="width" secondItem="yAq-LS-QyX" secondAttribute="width" id="TDh-Sp-jKn"/>
+                                    <constraint firstItem="yAq-LS-QyX" firstAttribute="centerX" secondItem="e1Q-hM-ZgT" secondAttribute="centerX" id="TtV-wB-z75"/>
+                                    <constraint firstAttribute="height" secondItem="yAq-LS-QyX" secondAttribute="height" id="nhq-E3-FoZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43839054404145072" green="0.43839054404145072" blue="0.43839054404145072" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="bRc-KZ-kO0">
+                        <rect key="frame" x="1" y="675" width="770" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="0.97941888619854722" horizontal="NO" id="e3g-Ur-6rm">
+                        <rect key="frame" x="771" y="1" width="15" height="674"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <box titlePosition="noTitle" transparent="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5a4-lp-Db6">
+                    <rect key="frame" x="724" y="20" width="42" height="27"/>
+                    <view key="contentView" id="f47-R2-w5W">
+                        <rect key="frame" x="2" y="2" width="38" height="23"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nNN-jL-hNw">
+                                <rect key="frame" x="22" y="3" width="15" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="y:" id="8uE-Wd-Inx">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AXS-cV-7Px">
+                                <rect key="frame" x="1" y="3" width="15" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="x:" id="wtc-6U-DL3">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nNN-jL-hNw" firstAttribute="centerY" secondItem="f47-R2-w5W" secondAttribute="centerY" id="27z-6K-m60"/>
+                            <constraint firstItem="AXS-cV-7Px" firstAttribute="centerY" secondItem="f47-R2-w5W" secondAttribute="centerY" id="4Tv-oy-bt6"/>
+                            <constraint firstAttribute="trailing" secondItem="nNN-jL-hNw" secondAttribute="trailing" constant="3" id="KJZ-hm-XaV"/>
+                            <constraint firstAttribute="bottom" secondItem="nNN-jL-hNw" secondAttribute="bottom" constant="3" id="VQa-pd-h4d"/>
+                            <constraint firstItem="nNN-jL-hNw" firstAttribute="leading" secondItem="AXS-cV-7Px" secondAttribute="trailing" constant="10" id="haU-C4-d3x"/>
+                            <constraint firstItem="AXS-cV-7Px" firstAttribute="leading" secondItem="f47-R2-w5W" secondAttribute="leading" constant="3" id="r5q-La-S9I"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstItem="nNN-jL-hNw" firstAttribute="top" secondItem="5a4-lp-Db6" secondAttribute="top" constant="3" id="Lps-fn-OaM"/>
+                    </constraints>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SjG-Ec-qwf" secondAttribute="bottom" id="2kE-a5-4lk"/>
+                <constraint firstItem="SjG-Ec-qwf" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="DKj-3y-e3k"/>
+                <constraint firstItem="e1Q-hM-ZgT" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="LqL-YB-HIY"/>
+                <constraint firstItem="bRc-KZ-kO0" firstAttribute="top" secondItem="5a4-lp-Db6" secondAttribute="bottom" constant="8" id="WQH-tJ-srM"/>
+                <constraint firstItem="SjG-Ec-qwf" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="bYM-Kj-B1G"/>
+                <constraint firstItem="SjG-Ec-qwf" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="dc0-W4-lBm"/>
+                <constraint firstItem="e3g-Ur-6rm" firstAttribute="leading" secondItem="5a4-lp-Db6" secondAttribute="trailing" constant="8" id="dnN-s5-q6B"/>
+                <constraint firstItem="SjG-Ec-qwf" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="dwA-W2-9wX"/>
+                <constraint firstItem="e1Q-hM-ZgT" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="jUu-fO-ivv"/>
+                <constraint firstAttribute="trailing" secondItem="SjG-Ec-qwf" secondAttribute="trailing" id="lv7-2i-M52"/>
+            </constraints>
+            <point key="canvasLocation" x="38.5" y="-183.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="naturetestphoto" width="2250" height="1500"/>
+    </resources>
+</document>
