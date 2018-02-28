@@ -7,15 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF23506C203B82FE0029D710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23506B203B82FE0029D710 /* AppDelegate.swift */; };
-		FF23506E203B82FE0029D710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23506D203B82FE0029D710 /* ViewController.swift */; };
+		FF2173B12044794C0082CFD4 /* ic_blue_info.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2173AF2044794C0082CFD4 /* ic_blue_info.png */; };
+		FF2173B320447B1D0082CFD4 /* InfoImageBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2173B220447B1D0082CFD4 /* InfoImageBarViewController.swift */; };
+		FF2173B520447E240082CFD4 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2173B420447E240082CFD4 /* ImageInfo.swift */; };
+		FF2173FB2044A0140082CFD4 /* ImageUtilsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2173F82044A00E0082CFD4 /* ImageUtilsKit.framework */; };
+		FF2173FC2044A0140082CFD4 /* ImageUtilsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2173F82044A00E0082CFD4 /* ImageUtilsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF235070203B82FE0029D710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF23506F203B82FE0029D710 /* Assets.xcassets */; };
-		FF235073203B82FE0029D710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF235071203B82FE0029D710 /* Main.storyboard */; };
 		FF23507F203B82FF0029D710 /* Media_viewer_4bTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23507E203B82FF0029D710 /* Media_viewer_4bTests.swift */; };
 		FF23508A203B82FF0029D710 /* Media_viewer_4bUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF235089203B82FF0029D710 /* Media_viewer_4bUITests.swift */; };
+		FF23509E203B83880029D710 /* MediaGallery4b.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF235099203B83880029D710 /* MediaGallery4b.xib */; };
+		FF23509F203B83880029D710 /* MediaGallery4b.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23509A203B83880029D710 /* MediaGallery4b.swift */; };
+		FF2350A0203B83880029D710 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23509B203B83880029D710 /* MediaItem.swift */; };
+		FF2350A1203B83880029D710 /* GalleryItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23509C203B83880029D710 /* GalleryItemCellView.swift */; };
+		FF2350A2203B83880029D710 /* GalleryItemCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF23509D203B83880029D710 /* GalleryItemCellView.xib */; };
+		FF2350A9203B83A20029D710 /* LeftPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350A4203B83A20029D710 /* LeftPanelViewController.swift */; };
+		FF2350AA203B83A20029D710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350A5203B83A20029D710 /* AppDelegate.swift */; };
+		FF2350AB203B83A20029D710 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350A6203B83A20029D710 /* MainViewController.swift */; };
+		FF2350AC203B83A20029D710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2350A7203B83A20029D710 /* Main.storyboard */; };
+		FF2350AD203B83A20029D710 /* MediaGalleryBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350A8203B83A20029D710 /* MediaGalleryBarController.swift */; };
+		FF2350B3203B83BD0029D710 /* GImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350AF203B83BC0029D710 /* GImageView.swift */; };
+		FF2350B4203B83BD0029D710 /* GImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2350B0203B83BC0029D710 /* GImageView.xib */; };
+		FF2350B5203B83BD0029D710 /* NSImageViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350B1203B83BC0029D710 /* NSImageViewUtils.swift */; };
+		FF2350B6203B83BD0029D710 /* CenteringClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2350B2203B83BD0029D710 /* CenteringClipView.swift */; };
+		FF2350BB203B83D60029D710 /* naturetestphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF2350B9203B83D60029D710 /* naturetestphoto.jpg */; };
+		FF2350BC203B83D60029D710 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2350BA203B83D60029D710 /* testImage.png */; };
+		FF2350C6203B851A0029D710 /* BasicsMacKit4b.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2350C3203B85150029D710 /* BasicsMacKit4b.framework */; };
+		FF2350C7203B851A0029D710 /* BasicsMacKit4b.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2350C3203B85150029D710 /* BasicsMacKit4b.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF4D71D7203D0208009AF809 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D71D6203D0208009AF809 /* MainWindowController.swift */; };
+		FF4D71DA203D0D49009AF809 /* ic_down_arrow_minimal.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4D71D9203D0D49009AF809 /* ic_down_arrow_minimal.png */; };
+		FF4D71DC203D0DA8009AF809 /* ic_up_arrow_minimal.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4D71DB203D0DA8009AF809 /* ic_up_arrow_minimal.png */; };
+		FFBA23A2203BB8A600B5FF7A /* FileMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA23A1203BB8A600B5FF7A /* FileMediaItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FF2173F72044A00E0082CFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2173F02044A00D0082CFD4 /* ImageUtilsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF2173C4204490790082CFD4;
+			remoteInfo = ImageUtilsKit;
+		};
+		FF2173F92044A00E0082CFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2173F02044A00D0082CFD4 /* ImageUtilsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF2173CD204490790082CFD4;
+			remoteInfo = ImageUtilsKitTests;
+		};
+		FF2173FD2044A0140082CFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2173F02044A00D0082CFD4 /* ImageUtilsKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2173C3204490790082CFD4;
+			remoteInfo = ImageUtilsKit;
+		};
 		FF23507B203B82FF0029D710 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF235060203B82FE0029D710 /* Project object */;
@@ -30,14 +75,54 @@
 			remoteGlobalIDString = FF235067203B82FE0029D710;
 			remoteInfo = "Media viewer 4b";
 		};
+		FF2350C2203B85150029D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2350BD203B85150029D710 /* BasicsMacKit4b.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFBFBF3B202E3F38005C2E35;
+			remoteInfo = BasicsMacKit4b;
+		};
+		FF2350C4203B85150029D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2350BD203B85150029D710 /* BasicsMacKit4b.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFBFBF44202E3F38005C2E35;
+			remoteInfo = BasicsMacKit4bTests;
+		};
+		FF2350C8203B851A0029D710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2350BD203B85150029D710 /* BasicsMacKit4b.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBFBF3A202E3F38005C2E35;
+			remoteInfo = BasicsMacKit4b;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FF2350CA203B851A0029D710 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF2350C7203B851A0029D710 /* BasicsMacKit4b.framework in Embed Frameworks */,
+				FF2173FC2044A0140082CFD4 /* ImageUtilsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1DE6DFE2DC65D0CCF4911BE9 /* Pods-Media viewer 4b.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media viewer 4b.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Media viewer 4b/Pods-Media viewer 4b.debug.xcconfig"; sourceTree = "<group>"; };
+		B871BBC2A0D261D6DBEF5128 /* Pods-Media viewer 4b.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media viewer 4b.release.xcconfig"; path = "Pods/Target Support Files/Pods-Media viewer 4b/Pods-Media viewer 4b.release.xcconfig"; sourceTree = "<group>"; };
+		D261999333FAEEC880543DBA /* Pods_Media_viewer_4b.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Media_viewer_4b.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2173AF2044794C0082CFD4 /* ic_blue_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_blue_info.png; sourceTree = "<group>"; };
+		FF2173B220447B1D0082CFD4 /* InfoImageBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoImageBarViewController.swift; sourceTree = "<group>"; };
+		FF2173B420447E240082CFD4 /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		FF2173F02044A00D0082CFD4 /* ImageUtilsKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageUtilsKit.xcodeproj; path = ../ImageUtilsKit/ImageUtilsKit.xcodeproj; sourceTree = "<group>"; };
 		FF235068203B82FE0029D710 /* Media viewer 4b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media viewer 4b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF23506B203B82FE0029D710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF23506D203B82FE0029D710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF23506F203B82FE0029D710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF235072203B82FE0029D710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF235074203B82FE0029D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF235075203B82FE0029D710 /* Media_viewer_4b.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Media_viewer_4b.entitlements; sourceTree = "<group>"; };
 		FF23507A203B82FF0029D710 /* Media viewer 4bTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media viewer 4bTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +131,27 @@
 		FF235085203B82FF0029D710 /* Media viewer 4bUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Media viewer 4bUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF235089203B82FF0029D710 /* Media_viewer_4bUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media_viewer_4bUITests.swift; sourceTree = "<group>"; };
 		FF23508B203B82FF0029D710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF235099203B83880029D710 /* MediaGallery4b.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaGallery4b.xib; sourceTree = "<group>"; };
+		FF23509A203B83880029D710 /* MediaGallery4b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaGallery4b.swift; sourceTree = "<group>"; };
+		FF23509B203B83880029D710 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		FF23509C203B83880029D710 /* GalleryItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCellView.swift; sourceTree = "<group>"; };
+		FF23509D203B83880029D710 /* GalleryItemCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryItemCellView.xib; sourceTree = "<group>"; };
+		FF2350A4203B83A20029D710 /* LeftPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPanelViewController.swift; sourceTree = "<group>"; };
+		FF2350A5203B83A20029D710 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF2350A6203B83A20029D710 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF2350A7203B83A20029D710 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FF2350A8203B83A20029D710 /* MediaGalleryBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaGalleryBarController.swift; sourceTree = "<group>"; };
+		FF2350AF203B83BC0029D710 /* GImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GImageView.swift; sourceTree = "<group>"; };
+		FF2350B0203B83BC0029D710 /* GImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GImageView.xib; sourceTree = "<group>"; };
+		FF2350B1203B83BC0029D710 /* NSImageViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageViewUtils.swift; sourceTree = "<group>"; };
+		FF2350B2203B83BD0029D710 /* CenteringClipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteringClipView.swift; sourceTree = "<group>"; };
+		FF2350B9203B83D60029D710 /* naturetestphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naturetestphoto.jpg; sourceTree = "<group>"; };
+		FF2350BA203B83D60029D710 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+		FF2350BD203B85150029D710 /* BasicsMacKit4b.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BasicsMacKit4b.xcodeproj; path = ../BasicsMacKit4b/BasicsMacKit4b.xcodeproj; sourceTree = "<group>"; };
+		FF4D71D6203D0208009AF809 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		FF4D71D9203D0D49009AF809 /* ic_down_arrow_minimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_down_arrow_minimal.png; sourceTree = "<group>"; };
+		FF4D71DB203D0DA8009AF809 /* ic_up_arrow_minimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_up_arrow_minimal.png; sourceTree = "<group>"; };
+		FFBA23A1203BB8A600B5FF7A /* FileMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMediaItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2350C6203B851A0029D710 /* BasicsMacKit4b.framework in Frameworks */,
+				FF2173FB2044A0140082CFD4 /* ImageUtilsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,13 +181,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5A829C62F5CC446D025300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D261999333FAEEC880543DBA /* Pods_Media_viewer_4b.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE901D6632389529FC27EED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6DFE2DC65D0CCF4911BE9 /* Pods-Media viewer 4b.debug.xcconfig */,
+				B871BBC2A0D261D6DBEF5128 /* Pods-Media viewer 4b.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF2173F12044A00D0082CFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2173F82044A00E0082CFD4 /* ImageUtilsKit.framework */,
+				FF2173FA2044A00E0082CFD4 /* ImageUtilsKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FF23505F203B82FE0029D710 = {
 			isa = PBXGroup;
 			children = (
+				FF2173F02044A00D0082CFD4 /* ImageUtilsKit.xcodeproj */,
+				FF2350BD203B85150029D710 /* BasicsMacKit4b.xcodeproj */,
 				FF23506A203B82FE0029D710 /* Media viewer 4b */,
 				FF23507D203B82FF0029D710 /* Media viewer 4bTests */,
 				FF235088203B82FF0029D710 /* Media viewer 4bUITests */,
 				FF235069203B82FE0029D710 /* Products */,
+				BEE901D6632389529FC27EED /* Pods */,
+				AD5A829C62F5CC446D025300 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +234,12 @@
 		FF23506A203B82FE0029D710 /* Media viewer 4b */ = {
 			isa = PBXGroup;
 			children = (
-				FF23506B203B82FE0029D710 /* AppDelegate.swift */,
-				FF23506D203B82FE0029D710 /* ViewController.swift */,
+				FF2350A3203B83950029D710 /* Gui */,
+				FF235098203B83700029D710 /* Media Gallery */,
+				FF2350AE203B83B10029D710 /* GImage */,
+				FF2173B420447E240082CFD4 /* ImageInfo.swift */,
+				FF2350B7203B83C70029D710 /* Resources */,
 				FF23506F203B82FE0029D710 /* Assets.xcassets */,
-				FF235071203B82FE0029D710 /* Main.storyboard */,
 				FF235074203B82FE0029D710 /* Info.plist */,
 				FF235075203B82FE0029D710 /* Media_viewer_4b.entitlements */,
 			);
@@ -124,6 +264,73 @@
 			path = "Media viewer 4bUITests";
 			sourceTree = "<group>";
 		};
+		FF235098203B83700029D710 /* Media Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				FF23509C203B83880029D710 /* GalleryItemCellView.swift */,
+				FF23509D203B83880029D710 /* GalleryItemCellView.xib */,
+				FF23509A203B83880029D710 /* MediaGallery4b.swift */,
+				FF235099203B83880029D710 /* MediaGallery4b.xib */,
+				FF23509B203B83880029D710 /* MediaItem.swift */,
+				FFBA23A1203BB8A600B5FF7A /* FileMediaItem.swift */,
+			);
+			path = "Media Gallery";
+			sourceTree = "<group>";
+		};
+		FF2350A3203B83950029D710 /* Gui */ = {
+			isa = PBXGroup;
+			children = (
+				FF2350A5203B83A20029D710 /* AppDelegate.swift */,
+				FF2350A4203B83A20029D710 /* LeftPanelViewController.swift */,
+				FF2350A7203B83A20029D710 /* Main.storyboard */,
+				FF2350A6203B83A20029D710 /* MainViewController.swift */,
+				FF2350A8203B83A20029D710 /* MediaGalleryBarController.swift */,
+				FF4D71D6203D0208009AF809 /* MainWindowController.swift */,
+				FF2173B220447B1D0082CFD4 /* InfoImageBarViewController.swift */,
+			);
+			path = Gui;
+			sourceTree = "<group>";
+		};
+		FF2350AE203B83B10029D710 /* GImage */ = {
+			isa = PBXGroup;
+			children = (
+				FF2350B2203B83BD0029D710 /* CenteringClipView.swift */,
+				FF2350AF203B83BC0029D710 /* GImageView.swift */,
+				FF2350B0203B83BC0029D710 /* GImageView.xib */,
+				FF2350B1203B83BC0029D710 /* NSImageViewUtils.swift */,
+			);
+			path = GImage;
+			sourceTree = "<group>";
+		};
+		FF2350B7203B83C70029D710 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF2350B8203B83CD0029D710 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF2350B8203B83CD0029D710 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D71D9203D0D49009AF809 /* ic_down_arrow_minimal.png */,
+				FF2173AF2044794C0082CFD4 /* ic_blue_info.png */,
+				FF4D71DB203D0DA8009AF809 /* ic_up_arrow_minimal.png */,
+				FF2350B9203B83D60029D710 /* naturetestphoto.jpg */,
+				FF2350BA203B83D60029D710 /* testImage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FF2350BE203B85150029D710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2350C3203B85150029D710 /* BasicsMacKit4b.framework */,
+				FF2350C5203B85150029D710 /* BasicsMacKit4bTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,13 +338,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF23508E203B82FF0029D710 /* Build configuration list for PBXNativeTarget "Media viewer 4b" */;
 			buildPhases = (
+				8F5B75BF67630EF8AEAC3BB4 /* [CP] Check Pods Manifest.lock */,
 				FF235064203B82FE0029D710 /* Sources */,
 				FF235065203B82FE0029D710 /* Frameworks */,
 				FF235066203B82FE0029D710 /* Resources */,
+				0501689C1BF8123E754C0E9F /* [CP] Embed Pods Frameworks */,
+				ABFE13E89AF8E6D8C3F563F8 /* [CP] Copy Pods Resources */,
+				FF2350CA203B851A0029D710 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FF2350C9203B851A0029D710 /* PBXTargetDependency */,
+				FF2173FE2044A0140082CFD4 /* PBXTargetDependency */,
 			);
 			name = "Media viewer 4b";
 			productName = "Media viewer 4b";
@@ -217,6 +430,16 @@
 			mainGroup = FF23505F203B82FE0029D710;
 			productRefGroup = FF235069203B82FE0029D710 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF2350BE203B85150029D710 /* Products */;
+					ProjectRef = FF2350BD203B85150029D710 /* BasicsMacKit4b.xcodeproj */;
+				},
+				{
+					ProductGroup = FF2173F12044A00D0082CFD4 /* Products */;
+					ProjectRef = FF2173F02044A00D0082CFD4 /* ImageUtilsKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FF235067203B82FE0029D710 /* Media viewer 4b */,
@@ -226,13 +449,52 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		FF2173F82044A00E0082CFD4 /* ImageUtilsKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ImageUtilsKit.framework;
+			remoteRef = FF2173F72044A00E0082CFD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF2173FA2044A00E0082CFD4 /* ImageUtilsKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ImageUtilsKitTests.xctest;
+			remoteRef = FF2173F92044A00E0082CFD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF2350C3203B85150029D710 /* BasicsMacKit4b.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BasicsMacKit4b.framework;
+			remoteRef = FF2350C2203B85150029D710 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF2350C5203B85150029D710 /* BasicsMacKit4bTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BasicsMacKit4bTests.xctest;
+			remoteRef = FF2350C4203B85150029D710 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		FF235066203B82FE0029D710 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF235070203B82FE0029D710 /* Assets.xcassets in Resources */,
-				FF235073203B82FE0029D710 /* Main.storyboard in Resources */,
+				FF2350AC203B83A20029D710 /* Main.storyboard in Resources */,
+				FF2350B4203B83BD0029D710 /* GImageView.xib in Resources */,
+				FF2350BC203B83D60029D710 /* testImage.png in Resources */,
+				FF23509E203B83880029D710 /* MediaGallery4b.xib in Resources */,
+				FF2173B12044794C0082CFD4 /* ic_blue_info.png in Resources */,
+				FF2350A2203B83880029D710 /* GalleryItemCellView.xib in Resources */,
+				FF2350BB203B83D60029D710 /* naturetestphoto.jpg in Resources */,
+				FF4D71DA203D0D49009AF809 /* ic_down_arrow_minimal.png in Resources */,
+				FF4D71DC203D0DA8009AF809 /* ic_up_arrow_minimal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +514,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0501689C1BF8123E754C0E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Media viewer 4b/Pods-Media viewer 4b-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F5B75BF67630EF8AEAC3BB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Media viewer 4b-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABFE13E89AF8E6D8C3F563F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Media viewer 4b/Pods-Media viewer 4b-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF235064203B82FE0029D710 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF23506E203B82FE0029D710 /* ViewController.swift in Sources */,
-				FF23506C203B82FE0029D710 /* AppDelegate.swift in Sources */,
+				FF2350A0203B83880029D710 /* MediaItem.swift in Sources */,
+				FF2350B3203B83BD0029D710 /* GImageView.swift in Sources */,
+				FF4D71D7203D0208009AF809 /* MainWindowController.swift in Sources */,
+				FF2173B520447E240082CFD4 /* ImageInfo.swift in Sources */,
+				FF2350B5203B83BD0029D710 /* NSImageViewUtils.swift in Sources */,
+				FF2350A9203B83A20029D710 /* LeftPanelViewController.swift in Sources */,
+				FF2350A1203B83880029D710 /* GalleryItemCellView.swift in Sources */,
+				FF2173B320447B1D0082CFD4 /* InfoImageBarViewController.swift in Sources */,
+				FF2350AA203B83A20029D710 /* AppDelegate.swift in Sources */,
+				FF2350AD203B83A20029D710 /* MediaGalleryBarController.swift in Sources */,
+				FF2350B6203B83BD0029D710 /* CenteringClipView.swift in Sources */,
+				FF23509F203B83880029D710 /* MediaGallery4b.swift in Sources */,
+				FF2350AB203B83A20029D710 /* MainViewController.swift in Sources */,
+				FFBA23A2203BB8A600B5FF7A /* FileMediaItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +606,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FF2173FE2044A0140082CFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageUtilsKit;
+			targetProxy = FF2173FD2044A0140082CFD4 /* PBXContainerItemProxy */;
+		};
 		FF23507C203B82FF0029D710 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FF235067203B82FE0029D710 /* Media viewer 4b */;
@@ -291,18 +621,12 @@
 			target = FF235067203B82FE0029D710 /* Media viewer 4b */;
 			targetProxy = FF235086203B82FF0029D710 /* PBXContainerItemProxy */;
 		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FF235071203B82FE0029D710 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF235072203B82FE0029D710 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+		FF2350C9203B851A0029D710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BasicsMacKit4b;
+			targetProxy = FF2350C8203B851A0029D710 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FF23508C203B82FF0029D710 /* Debug */ = {
@@ -413,7 +737,9 @@
 		};
 		FF23508F203B82FF0029D710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE6DFE2DC65D0CCF4911BE9 /* Pods-Media viewer 4b.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Media viewer 4b/Media_viewer_4b.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -429,7 +755,9 @@
 		};
 		FF235090203B82FF0029D710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B871BBC2A0D261D6DBEF5128 /* Pods-Media viewer 4b.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Media viewer 4b/Media_viewer_4b.entitlements";
 				CODE_SIGN_STYLE = Automatic;
